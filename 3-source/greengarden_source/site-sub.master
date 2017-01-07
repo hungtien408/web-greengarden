@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/site.master" AutoEventWireup="true" CodeFile="site-sub.master.cs" Inherits="site_sub" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    <asp:ContentPlaceHolder id="title" runat="server">
+    </asp:ContentPlaceHolder>
+    <script>
+        $(document).ready(function () {
+            $('#menu li').removeClass('active');
+        });
+    </script>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="menu" Runat="Server">
+    <ul id="menu" class="sub-menu desktop-992">
+        <li data-id="row1"><a href="./" runat="server">trang chủ</a></li>
+        <li data-id="row2"><a href="./#row2" runat="server">tổng quan</a></li>
+        <li data-id="row3"><a href="./#row3" runat="server">vị trí</a></li>
+        <li data-id="row4"><a href="./#row4" runat="server">tiện ích</a></li> 
+        <li data-id="row5"><a href="./#row5" runat="server">sơ đồ căn hộ</a></li>
+        <li data-id="row6"><a href="./#row6" runat="server">chương trình ưu đãi</a></li>
+        <li data-id="row7"><a href="./#row7" runat="server">tin tức</a></li>
+        <li data-id="row8"><a href="./#row8" runat="server">thư viện</a></li>
+        <li data-id="row9"><a href="./#row9" runat="server">liên hệ</a></li>
+    </ul>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+

@@ -1,0 +1,24 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/site.master" AutoEventWireup="true" CodeFile="site-default.master.cs" Inherits="site_default" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    <asp:ContentPlaceHolder id="title" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="menu" Runat="Server">
+    <ul id="menu" class="desktop-992">
+        <li class="nav-btn" data-row-id="row1"><a href="./">trang chủ</a></li>
+        <li class="nav-btn" data-row-id="row2"><a href="./#row2">tổng quan</a></li>
+        <li class="nav-btn" data-row-id="row3"><a href="./#row3">vị trí</a></li>
+        <li class="nav-btn" data-row-id="row4"><a href="./#row4">tiện ích</a></li> 
+        <li class="nav-btn" data-row-id="row5"><a href="./#row5">sơ đồ căn hộ</a></li>
+        <li class="nav-btn" data-row-id="row6"><a href="./#row6">chương trình ưu đãi</a></li>
+        <li class="nav-btn" data-row-id="row7"><a href="./#row7">tin tức</a></li>
+        <li class="nav-btn" data-row-id="row8"><a href="./#row8">thư viện</a></li>
+        <li class="nav-btn" data-row-id="row9"><a href="./#row9">liên hệ</a></li>
+    </ul>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+
